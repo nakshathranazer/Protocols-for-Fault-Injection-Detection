@@ -1,0 +1,781 @@
+
+(base) C:\Users\91940>cd C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA
+
+(base) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>conda activate Checker
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>python run_idt_expr_w_cnot_drive file.py
+python: can't open file 'C:\\Users\\91940\\OneDrive\\Desktop\\Documents\\ProjectWPA\\run_idt_expr_w_cnot_drive': [Errno 2] No such file or directory
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>python run_idt_expr_w_cnot_drive.py
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\objects\replib\__init__.py:29: UserWarning:
+An optimized Cython-based implementation of `pygsti.objects.replib` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\objects\opcalc\__init__.py:31: UserWarning:
+An optimized Cython-based implementation of `pygsti.objects.opcalc` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\io\circuitparser\__init__.py:60: UserWarning:
+An optimized Cython-based implementation of `pygsti.io.circuitparser` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+#### Run --  1  ####
+372 Idle Tomography experiments for 5 qubits
+job finished
+1 batch jobs finished
+1 batch write to file finished of run  1
+job finished
+2 batch jobs finished
+2 batch write to file finished of run  1
+job finished
+3 batch jobs finished
+3 batch write to file finished of run  1
+job finished
+4 batch jobs finished
+4 batch write to file finished of run  1
+job finished
+5 batch jobs finished
+5 batch write to file finished of run  1
+job finished
+1 batch jobs finished
+1 batch write to file finished of run  1
+job finished
+2 batch jobs finished
+2 batch write to file finished of run  1
+job finished
+3 batch jobs finished
+3 batch write to file finished of run  1
+job finished
+4 batch jobs finished
+4 batch write to file finished of run  1
+job finished
+5 batch jobs finished
+5 batch write to file finished of run  1
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>python analysiserror.py
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\objects\replib\__init__.py:29: UserWarning:
+An optimized Cython-based implementation of `pygsti.objects.replib` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\objects\opcalc\__init__.py:31: UserWarning:
+An optimized Cython-based implementation of `pygsti.objects.opcalc` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\io\circuitparser\__init__.py:60: UserWarning:
+An optimized Cython-based implementation of `pygsti.io.circuitparser` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+HX:0: 0.0002
+HY:0: -0.0001
+HZ:0: -0.0004
+HX:1: 0.0001
+HY:1: 0.0003
+HZ:1: 0.0002
+HX:2: 0.0000
+HY:2: 0.0004
+HZ:2: 0.0003
+HX:3: -0.0004
+HY:3: -0.0007
+HZ:3: -0.0003
+HX:4: -0.0006
+HY:4: -0.0003
+HZ:4: 0.0003
+HXX:0,1: 0.0000
+HXY:0,1: 0.0001
+HXZ:0,1: -0.0002
+HYX:0,1: -0.0000
+HYY:0,1: 0.0000
+HYZ:0,1: 0.0002
+HZX:0,1: 0.0001
+HZY:0,1: -0.0002
+HZZ:0,1: 0.0001
+HXX:0,2: 0.0001
+HXY:0,2: -0.0002
+HXZ:0,2: -0.0002
+HYX:0,2: 0.0002
+HYY:0,2: -0.0001
+HYZ:0,2: 0.0003
+HZX:0,2: 0.0002
+HZY:0,2: -0.0002
+HZZ:0,2: 0.0001
+HXX:0,3: -0.0000
+HXY:0,3: -0.0000
+HXZ:0,3: 0.0002
+HYX:0,3: -0.0000
+HYY:0,3: -0.0001
+HYZ:0,3: -0.0002
+HZX:0,3: -0.0000
+HZY:0,3: 0.0002
+HZZ:0,3: 0.0000
+HXX:0,4: 0.0001
+HXY:0,4: -0.0001
+HXZ:0,4: -0.0000
+HYX:0,4: 0.0000
+HYY:0,4: 0.0002
+HYZ:0,4: -0.0000
+HZX:0,4: 0.0002
+HZY:0,4: -0.0000
+HZZ:0,4: -0.0002
+HXX:1,2: 0.0000
+HXY:1,2: 0.0002
+HXZ:1,2: 0.0000
+HYX:1,2: -0.0003
+HYY:1,2: 0.0000
+HYZ:1,2: -0.0001
+HZX:1,2: -0.0002
+HZY:1,2: 0.0001
+HZZ:1,2: -0.0004
+HXX:1,3: -0.0000
+HXY:1,3: 0.0000
+HXZ:1,3: -0.0001
+HYX:1,3: 0.0000
+HYY:1,3: 0.0002
+HYZ:1,3: 0.0000
+HZX:1,3: 0.0000
+HZY:1,3: 0.0000
+HZZ:1,3: 0.0002
+HXX:1,4: -0.0001
+HXY:1,4: 0.0000
+HXZ:1,4: -0.0002
+HYX:1,4: -0.0001
+HYY:1,4: 0.0002
+HYZ:1,4: 0.0002
+HZX:1,4: 0.0003
+HZY:1,4: -0.0002
+HZZ:1,4: 0.0001
+HXX:2,3: -0.0000
+HXY:2,3: 0.0007
+HXZ:2,3: 0.0000
+HYX:2,3: -0.0005
+HYY:2,3: -0.0002
+HYZ:2,3: -0.0001
+HZX:2,3: -0.0000
+HZY:2,3: 0.0004
+HZZ:2,3: 0.0009
+HXX:2,4: -0.0000
+HXY:2,4: 0.0002
+HXZ:2,4: -0.0001
+HYX:2,4: -0.0001
+HYY:2,4: 0.0001
+HYZ:2,4: 0.0002
+HZX:2,4: 0.0003
+HZY:2,4: -0.0000
+HZZ:2,4: 0.0001
+HXX:3,4: 0.0004
+HXY:3,4: -0.0002
+HXZ:3,4: 0.0002
+HYX:3,4: -0.0001
+HYY:3,4: -0.0003
+HYZ:3,4: -0.0002
+HZX:3,4: 0.0003
+HZY:3,4: 0.0006
+HZZ:3,4: -0.0000
+SX:0: 0.0000
+SY:0: 0.0000
+SZ:0: 0.0000
+SX:1: 0.0001
+SY:1: 0.0001
+SZ:1: 0.0000
+SX:2: 0.0005
+SY:2: 0.0005
+SZ:2: 0.0000
+SX:3: 0.0000
+SY:3: 0.0002
+SZ:3: 0.0005
+SX:4: 0.0000
+SY:4: 0.0002
+SZ:4: 0.0006
+SXX:0,1: 0.0000
+SXY:0,1: 0.0000
+SXZ:0,1: 0.0000
+SYX:0,1: 0.0000
+SYY:0,1: 0.0000
+SYZ:0,1: 0.0000
+SZX:0,1: 0.0000
+SZY:0,1: 0.0000
+SZZ:0,1: 0.0000
+SXX:0,2: 0.0000
+SXY:0,2: 0.0000
+SXZ:0,2: 0.0000
+SYX:0,2: 0.0000
+SYY:0,2: 0.0000
+SYZ:0,2: 0.0000
+SZX:0,2: 0.0000
+SZY:0,2: 0.0001
+SZZ:0,2: 0.0000
+SXX:0,3: 0.0000
+SXY:0,3: 0.0000
+SXZ:0,3: 0.0000
+SYX:0,3: 0.0000
+SYY:0,3: 0.0000
+SYZ:0,3: 0.0000
+SZX:0,3: 0.0000
+SZY:0,3: 0.0000
+SZZ:0,3: 0.0000
+SXX:0,4: 0.0000
+SXY:0,4: 0.0000
+SXZ:0,4: 0.0000
+SYX:0,4: 0.0001
+SYY:0,4: 0.0000
+SYZ:0,4: 0.0000
+SZX:0,4: 0.0000
+SZY:0,4: 0.0000
+SZZ:0,4: 0.0000
+SXX:1,2: 0.0000
+SXY:1,2: 0.0000
+SXZ:1,2: 0.0001
+SYX:1,2: 0.0000
+SYY:1,2: 0.0000
+SYZ:1,2: 0.0000
+SZX:1,2: 0.0001
+SZY:1,2: 0.0000
+SZZ:1,2: 0.0000
+SXX:1,3: 0.0001
+SXY:1,3: 0.0000
+SXZ:1,3: 0.0000
+SYX:1,3: 0.0000
+SYY:1,3: 0.0000
+SYZ:1,3: 0.0000
+SZX:1,3: 0.0000
+SZY:1,3: 0.0001
+SZZ:1,3: 0.0000
+SXX:1,4: 0.0000
+SXY:1,4: 0.0000
+SXZ:1,4: 0.0000
+SYX:1,4: 0.0000
+SYY:1,4: 0.0000
+SYZ:1,4: 0.0000
+SZX:1,4: 0.0000
+SZY:1,4: 0.0001
+SZZ:1,4: 0.0002
+SXX:2,3: 0.0001
+SXY:2,3: 0.0000
+SXZ:2,3: 0.0000
+SYX:2,3: 0.0000
+SYY:2,3: 0.0000
+SYZ:2,3: 0.0000
+SZX:2,3: 0.0000
+SZY:2,3: 0.0001
+SZZ:2,3: 0.0004
+SXX:2,4: 0.0001
+SXY:2,4: 0.0000
+SXZ:2,4: 0.0000
+SYX:2,4: 0.0001
+SYY:2,4: 0.0000
+SYZ:2,4: 0.0000
+SZX:2,4: 0.0000
+SZY:2,4: 0.0001
+SZZ:2,4: 0.0004
+SXX:3,4: 0.0000
+SXY:3,4: 0.0001
+SXZ:3,4: 0.0000
+SYX:3,4: 0.0001
+SYY:3,4: 0.0000
+SYZ:3,4: 0.0001
+SZX:3,4: 0.0000
+SZY:3,4: 0.0000
+SZZ:3,4: 0.0000
+AX:0: 0.0000
+AY:0: 0.0000
+AZ:0: 0.0000
+AX:1: -0.0000
+AY:1: 0.0000
+AZ:1: 0.0000
+AX:2: -0.0000
+AY:2: 0.0000
+AZ:2: 0.0000
+AX:3: -0.0001
+AY:3: -0.0001
+AZ:3: 0.0000
+AX:4: -0.0001
+AY:4: 0.0000
+AZ:4: -0.0000
+AXX:0,1: 0.0000
+AXY:0,1: 0.0000
+AXZ:0,1: 0.0000
+AYX:0,1: -0.0000
+AYY:0,1: 0.0000
+AYZ:0,1: -0.0001
+AZX:0,1: -0.0000
+AZY:0,1: 0.0000
+AZZ:0,1: -0.0000
+AXX:0,2: 0.0000
+AXY:0,2: 0.0000
+AXZ:0,2: -0.0000
+AYX:0,2: -0.0000
+AYY:0,2: 0.0000
+AYZ:0,2: -0.0001
+AZX:0,2: 0.0000
+AZY:0,2: 0.0000
+AZZ:0,2: 0.0000
+AXX:0,3: -0.0001
+AXY:0,3: -0.0001
+AXZ:0,3: 0.0000
+AYX:0,3: 0.0000
+AYY:0,3: -0.0000
+AYZ:0,3: 0.0000
+AZX:0,3: -0.0001
+AZY:0,3: -0.0001
+AZZ:0,3: -0.0000
+AXX:0,4: -0.0000
+AXY:0,4: 0.0000
+AXZ:0,4: 0.0000
+AYX:0,4: -0.0000
+AYY:0,4: -0.0000
+AYZ:0,4: 0.0000
+AZX:0,4: 0.0001
+AZY:0,4: 0.0003
+AZZ:0,4: -0.0000
+AXX:1,2: 0.0000
+AXY:1,2: 0.0000
+AXZ:1,2: 0.0001
+AYX:1,2: 0.0000
+AYY:1,2: -0.0000
+AYZ:1,2: 0.0000
+AZX:1,2: -0.0000
+AZY:1,2: -0.0000
+AZZ:1,2: 0.0001
+AXX:1,3: -0.0000
+AXY:1,3: -0.0000
+AXZ:1,3: -0.0000
+AYX:1,3: 0.0000
+AYY:1,3: 0.0000
+AYZ:1,3: -0.0000
+AZX:1,3: 0.0000
+AZY:1,3: 0.0001
+AZZ:1,3: 0.0000
+AXX:1,4: 0.0000
+AXY:1,4: 0.0000
+AXZ:1,4: -0.0000
+AYX:1,4: -0.0001
+AYY:1,4: -0.0000
+AYZ:1,4: 0.0000
+AZX:1,4: -0.0001
+AZY:1,4: 0.0002
+AZZ:1,4: 0.0000
+AXX:2,3: 0.0000
+AXY:2,3: -0.0000
+AXZ:2,3: -0.0000
+AYX:2,3: 0.0000
+AYY:2,3: 0.0001
+AYZ:2,3: 0.0000
+AZX:2,3: -0.0006
+AZY:2,3: -0.0002
+AZZ:2,3: 0.0001
+AXX:2,4: -0.0000
+AXY:2,4: 0.0000
+AXZ:2,4: 0.0000
+AYX:2,4: -0.0001
+AYY:2,4: 0.0000
+AYZ:2,4: 0.0000
+AZX:2,4: -0.0000
+AZY:2,4: 0.0002
+AZZ:2,4: 0.0001
+AXX:3,4: -0.0001
+AXY:3,4: -0.0001
+AXZ:3,4: -0.0000
+AYX:3,4: 0.0002
+AYY:3,4: -0.0002
+AYZ:3,4: -0.0001
+AZX:3,4: -0.0000
+AZY:3,4: 0.0000
+AZZ:3,4: -0.0000
+*** Creating workspace ***
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\extras\idletomography\idtreport.py:826: UserWarning: You should really specify `title=` when generating reports, as this makes it much easier to identify them later on.  Since you didn't, pyGSTi has generated a random one for you: 'cocky stock car'.
+  _warnings.warn(("You should really specify `title=` when generating reports,"
+*** Generating switchboard ***
+*** Generating tables ***
+*** Generating plots ***
+*** Merging into template file ***
+*** Report Generation Complete!  Total time 2.46604s ***
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>python analysiserror.py
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\objects\replib\__init__.py:29: UserWarning:
+An optimized Cython-based implementation of `pygsti.objects.replib` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\objects\opcalc\__init__.py:31: UserWarning:
+An optimized Cython-based implementation of `pygsti.objects.opcalc` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\io\circuitparser\__init__.py:60: UserWarning:
+An optimized Cython-based implementation of `pygsti.io.circuitparser` is available as
+an extension, but couldn't be imported. This might happen if the
+extension has not been built. `pip install cython`, then reinstall
+pyGSTi to build Cython extensions. Alternatively, setting the
+environment variable `PYGSTI_NO_CYTHON_WARNING` will suppress this
+message.
+
+  _warnings.warn(warn_msg)
+HX:0: 0.0001
+HY:0: 0.0005
+HZ:0: 0.0001
+HX:1: 0.0006
+HY:1: 0.0003
+HZ:1: -0.0004
+HX:2: 0.0002
+HY:2: -0.0003
+HZ:2: -0.0001
+HX:3: -0.0004
+HY:3: -0.0003
+HZ:3: -0.0001
+HX:4: -0.0001
+HY:4: -0.0005
+HZ:4: -0.0005
+HXX:0,1: -0.0000
+HXY:0,1: 0.0001
+HXZ:0,1: 0.0003
+HYX:0,1: -0.0001
+HYY:0,1: -0.0002
+HYZ:0,1: -0.0002
+HZX:0,1: -0.0003
+HZY:0,1: 0.0003
+HZZ:0,1: -0.0002
+HXX:0,2: -0.0001
+HXY:0,2: -0.0001
+HXZ:0,2: 0.0001
+HYX:0,2: 0.0001
+HYY:0,2: -0.0003
+HYZ:0,2: -0.0001
+HZX:0,2: -0.0001
+HZY:0,2: 0.0001
+HZZ:0,2: 0.0002
+HXX:0,3: 0.0000
+HXY:0,3: 0.0001
+HXZ:0,3: -0.0005
+HYX:0,3: -0.0003
+HYY:0,3: 0.0005
+HYZ:0,3: 0.0001
+HZX:0,3: 0.0005
+HZY:0,3: -0.0001
+HZZ:0,3: 0.0001
+HXX:0,4: 0.0001
+HXY:0,4: 0.0002
+HXZ:0,4: -0.0002
+HYX:0,4: -0.0002
+HYY:0,4: 0.0001
+HYZ:0,4: -0.0001
+HZX:0,4: 0.0001
+HZY:0,4: 0.0001
+HZZ:0,4: 0.0003
+HXX:1,2: -0.0001
+HXY:1,2: 0.0001
+HXZ:1,2: 0.0002
+HYX:1,2: 0.0001
+HYY:1,2: -0.0001
+HYZ:1,2: -0.0001
+HZX:1,2: -0.0001
+HZY:1,2: 0.0001
+HZZ:1,2: 0.0000
+HXX:1,3: 0.0002
+HXY:1,3: 0.0001
+HXZ:1,3: -0.0004
+HYX:1,3: -0.0002
+HYY:1,3: 0.0004
+HYZ:1,3: 0.0001
+HZX:1,3: 0.0005
+HZY:1,3: 0.0001
+HZZ:1,3: 0.0001
+HXX:1,4: 0.0000
+HXY:1,4: 0.0004
+HXZ:1,4: -0.0001
+HYX:1,4: -0.0004
+HYY:1,4: 0.0001
+HYZ:1,4: -0.0002
+HZX:1,4: 0.0002
+HZY:1,4: 0.0002
+HZZ:1,4: 0.0007
+HXX:2,3: 0.0000
+HXY:2,3: -0.0000
+HXZ:2,3: 0.0000
+HYX:2,3: 0.0000
+HYY:2,3: -0.0000
+HYZ:2,3: 0.0000
+HZX:2,3: -0.0002
+HZY:2,3: 0.0000
+HZZ:2,3: 0.0002
+HXX:2,4: 0.0001
+HXY:2,4: -0.0002
+HXZ:2,4: 0.0000
+HYX:2,4: 0.0004
+HYY:2,4: 0.0002
+HYZ:2,4: 0.0000
+HZX:2,4: -0.0000
+HZY:2,4: 0.0001
+HZZ:2,4: -0.0002
+HXX:3,4: -0.0000
+HXY:3,4: 0.0002
+HXZ:3,4: 0.0008
+HYX:3,4: -0.0001
+HYY:3,4: -0.0006
+HYZ:3,4: 0.0003
+HZX:3,4: 0.0006
+HZY:3,4: -0.0001
+HZZ:3,4: 0.0001
+SX:0: 0.0002
+SY:0: 0.0001
+SZ:0: 0.0000
+SX:1: 0.0003
+SY:1: 0.0003
+SZ:1: 0.0000
+SX:2: 0.0001
+SY:2: 0.0003
+SZ:2: 0.0000
+SX:3: 0.0004
+SY:3: 0.0000
+SZ:3: 0.0005
+SX:4: 0.0002
+SY:4: 0.0000
+SZ:4: 0.0005
+SXX:0,1: 0.0000
+SXY:0,1: 0.0000
+SXZ:0,1: 0.0000
+SYX:0,1: 0.0000
+SYY:0,1: 0.0000
+SYZ:0,1: 0.0001
+SZX:0,1: 0.0000
+SZY:0,1: 0.0000
+SZZ:0,1: 0.0000
+SXX:0,2: 0.0000
+SXY:0,2: 0.0000
+SXZ:0,2: 0.0000
+SYX:0,2: 0.0000
+SYY:0,2: 0.0000
+SYZ:0,2: 0.0001
+SZX:0,2: 0.0000
+SZY:0,2: 0.0000
+SZZ:0,2: 0.0000
+SXX:0,3: 0.0000
+SXY:0,3: 0.0001
+SXZ:0,3: 0.0000
+SYX:0,3: 0.0000
+SYY:0,3: 0.0001
+SYZ:0,3: 0.0000
+SZX:0,3: 0.0001
+SZY:0,3: 0.0000
+SZZ:0,3: 0.0002
+SXX:0,4: 0.0000
+SXY:0,4: 0.0001
+SXZ:0,4: 0.0000
+SYX:0,4: 0.0000
+SYY:0,4: 0.0001
+SYZ:0,4: 0.0000
+SZX:0,4: 0.0001
+SZY:0,4: 0.0000
+SZZ:0,4: 0.0001
+SXX:1,2: 0.0000
+SXY:1,2: 0.0000
+SXZ:1,2: 0.0000
+SYX:1,2: 0.0000
+SYY:1,2: 0.0000
+SYZ:1,2: 0.0000
+SZX:1,2: 0.0000
+SZY:1,2: 0.0001
+SZZ:1,2: 0.0000
+SXX:1,3: 0.0000
+SXY:1,3: 0.0001
+SXZ:1,3: 0.0000
+SYX:1,3: 0.0000
+SYY:1,3: 0.0001
+SYZ:1,3: 0.0000
+SZX:1,3: 0.0002
+SZY:1,3: 0.0000
+SZZ:1,3: 0.0002
+SXX:1,4: 0.0000
+SXY:1,4: 0.0001
+SXZ:1,4: 0.0000
+SYX:1,4: 0.0000
+SYY:1,4: 0.0000
+SYZ:1,4: 0.0000
+SZX:1,4: 0.0001
+SZY:1,4: 0.0000
+SZZ:1,4: 0.0002
+SXX:2,3: 0.0000
+SXY:2,3: 0.0000
+SXZ:2,3: 0.0000
+SYX:2,3: 0.0000
+SYY:2,3: 0.0000
+SYZ:2,3: 0.0000
+SZX:2,3: 0.0000
+SZY:2,3: 0.0000
+SZZ:2,3: 0.0002
+SXX:2,4: 0.0000
+SXY:2,4: 0.0000
+SXZ:2,4: 0.0000
+SYX:2,4: 0.0000
+SYY:2,4: 0.0000
+SYZ:2,4: 0.0000
+SZX:2,4: 0.0000
+SZY:2,4: 0.0000
+SZZ:2,4: 0.0002
+SXX:3,4: 0.0000
+SXY:3,4: 0.0000
+SXZ:3,4: 0.0000
+SYX:3,4: 0.0000
+SYY:3,4: 0.0000
+SYZ:3,4: 0.0000
+SZX:3,4: 0.0000
+SZY:3,4: 0.0001
+SZZ:3,4: 0.0000
+AX:0: -0.0000
+AY:0: 0.0000
+AZ:0: 0.0001
+AX:1: -0.0000
+AY:1: 0.0000
+AZ:1: 0.0001
+AX:2: -0.0000
+AY:2: 0.0000
+AZ:2: -0.0000
+AX:3: -0.0000
+AY:3: 0.0000
+AZ:3: 0.0000
+AX:4: -0.0001
+AY:4: 0.0001
+AZ:4: 0.0000
+AXX:0,1: 0.0000
+AXY:0,1: -0.0000
+AXZ:0,1: 0.0001
+AYX:0,1: 0.0000
+AYY:0,1: -0.0000
+AYZ:0,1: 0.0000
+AZX:0,1: 0.0000
+AZY:0,1: -0.0001
+AZZ:0,1: 0.0000
+AXX:0,2: 0.0000
+AXY:0,2: -0.0000
+AXZ:0,2: -0.0001
+AYX:0,2: 0.0000
+AYY:0,2: -0.0000
+AYZ:0,2: -0.0000
+AZX:0,2: 0.0000
+AZY:0,2: -0.0001
+AZZ:0,2: 0.0000
+AXX:0,3: 0.0000
+AXY:0,3: 0.0000
+AXZ:0,3: 0.0000
+AYX:0,3: -0.0000
+AYY:0,3: 0.0000
+AYZ:0,3: 0.0000
+AZX:0,3: -0.0001
+AZY:0,3: 0.0004
+AZZ:0,3: 0.0000
+AXX:0,4: 0.0000
+AXY:0,4: -0.0000
+AXZ:0,4: -0.0000
+AYX:0,4: 0.0000
+AYY:0,4: 0.0000
+AYZ:0,4: -0.0000
+AZX:0,4: -0.0002
+AZY:0,4: 0.0001
+AZZ:0,4: 0.0000
+AXX:1,2: -0.0000
+AXY:1,2: -0.0000
+AXZ:1,2: -0.0000
+AYX:1,2: -0.0000
+AYY:1,2: 0.0000
+AYZ:1,2: 0.0000
+AZX:1,2: 0.0001
+AZY:1,2: -0.0001
+AZZ:1,2: 0.0000
+AXX:1,3: 0.0000
+AXY:1,3: 0.0000
+AXZ:1,3: 0.0000
+AYX:1,3: -0.0000
+AYY:1,3: 0.0000
+AYZ:1,3: -0.0000
+AZX:1,3: -0.0001
+AZY:1,3: 0.0005
+AZZ:1,3: 0.0000
+AXX:1,4: -0.0000
+AXY:1,4: -0.0000
+AXZ:1,4: -0.0000
+AYX:1,4: 0.0000
+AYY:1,4: 0.0001
+AYZ:1,4: -0.0000
+AZX:1,4: -0.0004
+AZY:1,4: 0.0001
+AZZ:1,4: 0.0000
+AXX:2,3: 0.0000
+AXY:2,3: 0.0000
+AXZ:2,3: -0.0000
+AYX:2,3: -0.0000
+AYY:2,3: -0.0000
+AYZ:2,3: 0.0000
+AZX:2,3: -0.0001
+AZY:2,3: -0.0001
+AZZ:2,3: 0.0000
+AXX:2,4: -0.0000
+AXY:2,4: -0.0000
+AXZ:2,4: -0.0000
+AYX:2,4: 0.0000
+AYY:2,4: 0.0000
+AYZ:2,4: 0.0000
+AZX:2,4: 0.0003
+AZY:2,4: 0.0001
+AZZ:2,4: 0.0000
+AXX:3,4: 0.0000
+AXY:3,4: 0.0000
+AXZ:3,4: 0.0000
+AYX:3,4: -0.0001
+AYY:3,4: -0.0002
+AYZ:3,4: 0.0001
+AZX:3,4: -0.0001
+AZY:3,4: -0.0000
+AZZ:3,4: -0.0000
+*** Creating workspace ***
+C:\Users\91940\anaconda3\envs\Checker\lib\site-packages\pygsti\extras\idletomography\idtreport.py:826: UserWarning: You should really specify `title=` when generating reports, as this makes it much easier to identify them later on.  Since you didn't, pyGSTi has generated a random one for you: 'metal travel guidebook'.
+  _warnings.warn(("You should really specify `title=` when generating reports,"
+*** Generating switchboard ***
+*** Generating tables ***
+*** Generating plots ***
+*** Merging into template file ***
+*** Report Generation Complete!  Total time 1.83203s ***
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>paste book1.txt book2.txt | awk '{print $1 - $2}' >comparison.txt
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>python differ.py
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA>python metricresult.py
+Sum Of Total Deviations: 0.004200000000000001
+
+(Checker) C:\Users\91940\OneDrive\Desktop\Documents\ProjectWPA> 

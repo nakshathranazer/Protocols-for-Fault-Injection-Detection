@@ -1,0 +1,1 @@
+paste book1.txt book2.txt | awk '{print $1 - $2}' >comparison.txt

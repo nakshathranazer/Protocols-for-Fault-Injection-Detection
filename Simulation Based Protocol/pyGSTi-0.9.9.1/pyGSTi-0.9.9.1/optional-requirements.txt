@@ -1,0 +1,15 @@
+### Optional Requirements ###
+mpi4py
+deap
+psutil
+pandas
+matplotlib
+ipython
+notebook
+msgpack
+cython
+cvxopt
+cvxpy
+nose
+
+
