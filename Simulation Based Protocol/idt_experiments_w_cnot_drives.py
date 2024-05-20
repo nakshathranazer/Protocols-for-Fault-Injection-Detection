@@ -5,11 +5,11 @@ from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
 import os
 from qiskit import IBMQ
 from qiskit_ibm_provider import IBMProvider
-IBMProvider.save_account(token='d4ac1539cf158ed2438538c021bf4993b0f29c0b9e20aafdf3b3a865d3e8bfa4f5e1e3185b6a923d4f526cf71e34176ff0559c1f1bc02d12043ac382aa448a68',overwrite=True)
+IBMProvider.save_account(token='',overwrite=True)
 
 # enabling IBM Q account
 
-provider = IBMQ.enable_account(token='d4ac1539cf158ed2438538c021bf4993b0f29c0b9e20aafdf3b3a865d3e8bfa4f5e1e3185b6a923d4f526cf71e34176ff0559c1f1bc02d12043ac382aa448a68')
+provider = IBMQ.enable_account(token='')
 backend = provider.get_backend('ibmq_quito')
 
 
